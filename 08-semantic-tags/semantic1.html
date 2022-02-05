@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет</title>
+</head>
+<style media="screen">
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(104, 174, 231, 0.856);
+  font-family: monospace;
+     }
+header {
+  padding: 30px 20px;
+  background-color: rgb(12, 14, 182);
+  align-items: center;
+}
+header a {
+  min-height: 0px;
+  padding: 0px 20px;
+    align-items: left;
+    align-items: top;
+}
+nav li {
+    font-family: monospace;
+    color: #57a063;
+    display: table-header-group;
+    padding: 10px 20px;
+    background-color: rgb(243, 209, 17);
+  }
+main{
+    float: left;
+    padding: 20px;
+    width: 75%;
+    height: 400px;
+    background-color: rgb(18, 187, 83);
+    flex-direction: column;
+}
+section::after{
+    float: left;
+    padding: 20px;
+    width: 75%;
+    height: 400px;
+    background-color: thistle;
+    flex-direction: column;
+}
+aside{
+    float: right;
+    top: 0;
+    width: 25%;
+    height: 400px;
+    background-color:rgb(195, 205, 50);
+    padding: 0px;
+}
+nav ul{
+    list-style-type: lower-alpha;
+    padding: 0px;
+}
+
+footer p {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ footer>ul>li {
+    margin-top: 20px;
+    background-color: #18c426;
+    font-family: monospace;
+    color: #1c855d;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+</style>
+<body>
+     <header>
+    <h1 style="text-align: center;">Шапка</h1>
+
+        <a href="#" style="float: left;">LOGO</a>
+
+        <nav>
+        
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Услуги</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Основное Содержание</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis, quia possimus, eos at exercitationem enim quam hic veritatis, cumque ea eligendi nesciunt labore. Impedit modi saepe facere voluptate architecto?</p>
+            <br>
+        </section>
+            <h3>О нас</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Harum delectus consequatur sint? Qui quaerat dolore nam aliquid, mollitia doloribus totam veniam, beatae tempore amet placeat alias ex, doloremque natus provident?</p>
+
+        </section>
+        <section>
+            <h3>Наши услуги</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit provident sequi sunt soluta officia eius ratione id, velit quo repellat corrupti deserunt qui enim voluptas explicabo,
+                 at distinctio totam illum!
+            </p>
+        </section>
+    </main>
+    <aside>
+        <h2>Сайдбар</h2>
+        <br>
+        <h3>Боковое меню</h3>
+
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Услуги</a></li>
+            
+        </ul>
+
+    </aside>
+<footer>
+  
+        <p>&copy; Все права защищены. Company 2021г.</p>
+     
+   
+    <p> Следите за нами в соцсетях!
+    <ul>
+        <li><a href="#">Telegram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Youtube</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+    </ul>
+</P>
+</footer>
+
+</body>
+</html>
